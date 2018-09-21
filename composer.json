@@ -5,19 +5,39 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^7.1.3",
-        "barryvdh/laravel-debugbar": "^3.2",
-        "fideloper/proxy": "^4.0",
+        "php": ">=7.1.3",
+        "artem-schander/l5-modular": "^1.4",
+        "bacon/bacon-qr-code": "^1.0",
+        "consoletvs/charts": "6.*",
+        "cornford/googlmapper": "^2.32",
+        "davejamesmiller/laravel-breadcrumbs": "5.x",
+        "doctrine/dbal": "^2.6",
+        "fideloper/proxy": "~4.0",
+        "freshbitsweb/laratables": "^1.0",
+        "irazasyed/telegram-bot-sdk": "^2.2",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.7.0",
+        "league/flysystem-cached-adapter": "^1.0",
+        "longman/ip-tools": "^1.2",
+        "pear2/net_routeros": "1.0.0b6",
+        "pear2/net_transmitter": "1.0.0b2",
+        "php-imap/php-imap": "^3.0",
+        "phpoffice/phpspreadsheet": "^1.1",
+        "phpseclib/phpseclib": "~2.0",
+        "pragmarx/google2fa-laravel": "^0.1.2",
+        "predis/predis": "^1.1",
+        "spatie/laravel-permission": "^2.7",
+        "tecnickcom/tcpdf": "^6.2"
     },
     "require-dev": {
-        "beyondcode/laravel-dump-server": "^1.0",
-        "filp/whoops": "^2.0",
-        "fzaninotto/faker": "^1.4",
-        "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "barryvdh/laravel-debugbar": "^3.1",
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "nunomaduro/collision": "~2.0",
+        "phpunit/phpunit": "~7.0"
     },
     "autoload": {
         "classmap": [
@@ -26,7 +46,10 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files" : [
+
+        ]
     },
     "autoload-dev": {
         "psr-4": {
@@ -55,7 +78,5 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
